@@ -1,0 +1,39 @@
+.container{
+background-color:#ccc ;
+padding: 20px;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+
+
+}
+
+
+.nome input{
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:  20px;
+}
+
+button{
+    width: 200px;
+    padding: 7px;
+    background-color: blue;
+    color: #fff;
+}
+
+button:hover{
+    background-color: aqua;
+    transition: 300ms ease-in-out all;
+    cursor: pointer;
+    color: black;
+}
