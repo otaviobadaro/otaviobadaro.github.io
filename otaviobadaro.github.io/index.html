@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculo</title>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2f9e41;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #000000;
+        }
+
+        .profile-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-info img {
+            width: 150px;
+            height: 200px;
+            margin-right: 20px;
+        }
+
+        .nome label {
+            font-weight: bold;
+        }
+
+        .descricao label {
+            margin-top: 10px;
+        }
+
+        .info {
+            font-size: 50px;
+        }
+
+        .experiencia,
+        .formacao,
+        .email,
+        .formulario {
+            margin-top: 20px;
+        }
+
+        .experiencia h2,
+        .formacao h2,
+        .email h2,
+        .formulario h2 {
+            margin-bottom: 10px;
+        }
+
+        .experiencia p,
+        .formacao p,
+        .email p {
+            margin: 0 0 10px 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #cd191e;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2f9e41;
+        }
+  </style>
+</head>
+<body>
+  <h1>Meu currículo</h1>
+  <div class="container">
+    <div class="profile-info">
+      <img class="foto" src="foto%20curriculo.jpeg" alt="foto%20curriculo">
+      <div class="info">
+        <label for="">Otávio Badaró Silva Dias</label>
+      </div>
+    </div>
+    <div class="descricao">
+      <h2>Descrição:</h2>
+      <p>Tenho experiência em suporte técnico, desenvolvimento de software e ensino de computação. Sou um profissional dedicado, proativo e com capacidade de aprendizado rápido. Estou ansioso para contribuir para o sucesso de uma empresa de tecnologia líder de mercado e acredito que minhas habilidades e conhecimentos podem ser valiosos para a equipe.</p>
+    </div>
+    <div class="email">
+      <h2>Email:</h2>
+      <p>otaviobadaro@gmail.com</p>
+    </div>
+    <div class="experiencia">
+      <h2>Experiência Profissional:</h2>
+      <p>Trasnporte Santa Tereza - Assistente ADM - 2023-Atualmente</p>
+      <p>Masteclin - Técnico em TI - 2022 - 2023</p>
+    </div>
+    <div class="formacao">
+      <h2>Formação Acadêmica:</h2>
+      <p>Licenciatura em Computação - Instituto Federal Do Tocantins - 2019 - Atualmente</p>
+      <p>Ensino Médio - E.E.E.M Prof Deuzuita Pereira de Queiroz - 2016 - 2018</p>
+    </div>
+    <div class="formulario">
+      <h2>Entre em Contato:</h2>
+      <form action="#" method="post">
+        <label for="nome">Nome:</label> <input type="text" id="nome" name="nome" required=""> <label for="email">Email:</label> <input type="email" id="email" name="email" required=""> <label for="mensagem">Mensagem:</label> 
+        <textarea id="mensagem" name="mensagem" rows="4" required=""></textarea> <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
